@@ -1,0 +1,52 @@
+[
+    {
+    "Name": "M.B Nithusha",
+    "USN": "18btrci027",
+    "DOB": "2001-01-18",
+    "Mail": "nithusha19@gmail.com",
+    "Department": "CSE-AI",
+    "Batch": "2018-2022",
+    "Clubname": "Top coders",
+    "Sports": "No"
+    },
+    {
+    "Name": "P.Sarayu",
+    "USN": "18btrci036",
+    "DOB": "2001-03-22",
+    "Mail": "Sarayupolepalli@gamili.com",
+    "Department": "CSE-AI",
+    "Batch": "2018-2022",
+    "Clubname": "",
+    "Sports": "No"
+    },
+    {
+    "Name": "Shruthi Satish Kumar",
+    "USN": "18BTRCI043",
+    "DOB": "2000-05-12",
+    "Mail": "srutisk24@gmail.com",
+    "Department": "CSE-AI",
+    "Batch": "2018-2022",
+    "Clubname": "Music club",
+    "Sports": "Throwball"
+    },
+    {
+    "Name": "Aarti B ",
+    "USN": "18BTRCI054",
+    "DOB": "2001-02-27",
+    "Mail": "aartishrikutty@gmail.com",
+    "Department": "CSE-AI",
+    "Batch": "2018-2022",
+    "Clubname": "",
+    "Sports": "No"
+    },
+    {
+    "Name": "Tummalapudi Sai Mani Rishi Nandan",
+    "USN": "18BTRCI063",
+    "DOB": "2001-09-07",
+    "Mail": "18btrci063@jainuniversity.ac.in",
+    "Department": "CSE-AI",
+    "Batch": "2018-2022",
+    "Clubname": "",
+    "Sports": "no"
+    }
+]
