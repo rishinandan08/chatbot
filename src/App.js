@@ -157,9 +157,14 @@ const steps=[
 class chatbot extends Component {
   logout = ()=>{
     //console.log("cookie",document.cookie);
-    document.cookie = "1P_JAR=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+      var eqPos = cookie.indexOf("=");
+      var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+      document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
     window.location.href='https://humanizerbot.herokuapp.com';
-    document.cookie.remove('1P_JAR');
   }
   handleClear = () => {
   this.setState({ clear: true }, () => {
