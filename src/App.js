@@ -158,7 +158,7 @@ class chatbot extends Component {
   logout = ()=>{
     //console.log("cookie",document.cookie);
     document.cookie = "1P_JAR=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    window.location.reload('https://humanizerbot.herokuapp.com/');
+    window.location.href='https://humanizerbot.herokuapp.com';
     document.cookie.remove('1P_JAR');
   }
   handleClear = () => {
