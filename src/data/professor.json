@@ -1,0 +1,203 @@
+[
+  {
+    "mailid": "c.devaraj@jainuniversity.ac.in",
+    "Name": "Associate Professor ",
+    "ID": 993,
+    "ClgMail": "c.devaraj@jainuniversity.ac.in",
+    "Branch": "CSE - Artificial Intelligence ",
+    "Courses": "Artificial Intelligence-18CS6AI05",
+    "Educational_Degrees": "B.E, M.TECH, PHD",
+    "Available_time": "anytime, preferably 3-6",
+    "Languages_know": "Kannada  Hindi English Telugu"
+  }, {
+    "mailid": "drstalinalex@gmail.com",
+    "Name": "Dr.D.Stalin Alex",
+    "ID": "ads01",
+    "ClgMail": "s.stalin@jainuniversity.ac.in",
+    "Branch": "Data Science",
+    "Courses": "IT workshop python",
+    "Educational_Degrees": "Phd",
+    "Available_time": "6pm - 8pm",
+    "Languages_know": "Tamil, English"
+  }, {
+    "mailid": "basavaraju.dr.07@gmail.com",
+    "Name": "Basavaraju D R, Assistant Professor",
+    "ID": "A1293",
+    "ClgMail": "dr.basavaraju@jainuniversity.ac.in",
+    "Branch": "IoT, CS-SP",
+    "Courses": "DSD, COA, DSP, MC&MP, Sensor Technologies, Basic Electrical Engineering.",
+    "Educational_Degrees": "B.E, M.Tech (Ph.D)",
+    "Available_time": "10 am - 6 pm ",
+    "Languages_know": "Kannada, English, Hindi"
+  }, {
+    "mailid": "shreenidhihs.14@gmail.com",
+    "Name": "Assistant Professor ",
+    "ID": "A1058",
+    "ClgMail": "hs.shreenidhi@jainuniversity.ac.in",
+    "Branch": "CSE IoT",
+    "Courses": "Computer o",
+    "Educational_Degrees": "M.Tech(Phd )",
+    "Available_time": "8:30am to 5:30pm",
+    "Languages_know": "Kannada,Hindi, Tulu"
+  }, {
+    "mailid": "k.sujeet@jainuniversity.ac.in",
+    "Name": "Asst. Prof. Sujeet Kumar",
+    "ID": 17205021,
+    "ClgMail": "sujeetkumar.mecse17@pec.edu.in",
+    "Branch": 2017,
+    "Courses": "Computer Networks - 18CS5SP07",
+    "Educational_Degrees": "M.Tech",
+    "Available_time": "10 - 4 PM",
+    "Languages_know": "Hindi, English, Punjabi"
+  }, {
+    "mailid": "d.pandiarajan@jainuniversity.ac.in",
+    "Name": "Dr. Pandiarajan Devaraj",
+    "ID": "A906",
+    "ClgMail": "d.pandiarajan@jainuniversity.ac.in",
+    "Branch": "Basic Science Chemistry",
+    "Courses": "Chemistry",
+    "Educational_Degrees": "M.Sc., Ph.D Postdoc (Switzerland)",
+    "Available_time": "9 AM to 3.30 PM",
+    "Languages_know": "Tamil, English, Kannada"
+  }, {
+    "mailid": "silvia.rose@jainuniversity.ac.in",
+    "Name": "Asst.prof",
+    "ID": "A-1232",
+    "ClgMail": "silvia.rose@jainuniversity.ac.in",
+    "Branch": "AI",
+    "Courses": "Database management systems-18CS4SP04",
+    "Educational_Degrees": "M.Tech",
+    "Available_time": "9AM - 5PM",
+    "Languages_know": "Tamil, English"
+  }, {
+    "mailid": "vinutha@jainuniversity.ac.in",
+    "Name": "Dr. Vinutha N",
+    "ID": 1,
+    "ClgMail": "vinutha@jainuniversity.ac.in ",
+    "Branch": "Data Science ",
+    "Courses": "Advanced Big Data Analytics- 18CS6DS08, Software Engineering-18CS6SP09",
+    "Educational_Degrees": "BE, ME, PhD",
+    "Available_time": "2 pm to 4 pm",
+    "Languages_know": "Kannada, Tamil, Telugu"
+  }, {
+    "mailid": "s.jasneet@jainuniversity.ac.in",
+    "Name": "Prof. Jasneet Singh Mehta",
+    "ID": "A1139",
+    "ClgMail": "s.jasneet@jainuniversity.ac.in",
+    "Branch": "Soft Skills",
+    "Courses": "Soft skills and English",
+    "Educational_Degrees": "MBA",
+    "Available_time": "10 am to 5 pm",
+    "Languages_know": "English, Hindi & Punjabi"
+  }, {
+    "mailid": "pazhani.swamy@jainuniversity.ac.in",
+    "Name": "Prof.pazhanisamy",
+    "ID": "A-140",
+    "ClgMail": "pazhani.swamy@jainuniversity.ac.in",
+    "Branch": "HSS",
+    "Courses": "Economics for engineers,sociology and COI",
+    "Educational_Degrees": "M.phil",
+    "Available_time": "6 AM to 11 PM.",
+    "Languages_know": "Tamil, Malayalam,Gercy and Kannada."
+  }, {
+    "mailid": "vimalachidu@gmail.com",
+    "Name": "Dr. Vimala T",
+    "ID": "A858",
+    "ClgMail": "t.vimala@jainuniversity.ac.in",
+    "Branch": "MATHEMATICS",
+    "Courses": "All Mathematics subjects and Statistics subjects",
+    "Educational_Degrees": "Doctorate",
+    "Available_time": "9am to 5am",
+    "Languages_know": "Kannada, English, Hindi"
+  }, {
+    "mailid": "vishwanatha.s4@gmail.com",
+    "Name": "Vishwanatha S (Assistant Professor) ",
+    "ID": 113,
+    "ClgMail": "s.vishwanatha@jainuniversity.ac.in",
+    "Branch": "Mathematics (CS-SP)",
+    "Courses": "Mathematics 1 and Statistics Using R",
+    "Educational_Degrees": "M.Sc (Ph.D)",
+    "Available_time": "9:30 am to 5:30 pm",
+    "Languages_know": "Kannada "
+  }, {
+    "mailid": "n.maruthi@jainuniversity.ac.in",
+    "Name": "Asst. Prof. MARUTHI N",
+    "ID": "A1134",
+    "ClgMail": "n.maruthi@jainuniversity.ac.in",
+    "Branch": "Basic science",
+    "Courses": "Physics",
+    "Educational_Degrees": "MSc, (PhD)",
+    "Available_time": "9:00 am- 4:00pm",
+    "Languages_know": "English Kannada Telugu"
+  }, {
+    "mailid": "ashwini.mathur@inurture.co.in",
+    "Name": "Asst. Prof.",
+    "ID": "A0990",
+    "ClgMail": "ashwini.mathur@jainuniversity.ac.in",
+    "Branch": "CTIS ",
+    "Courses": "Principle of Virtualization, Linux Administration, Enterprise Network Engineering",
+    "Educational_Degrees": "Mtech ",
+    "Available_time": "10:00 a.m. to 3:30 p.m. ",
+    "Languages_know": " Hindi and English"
+  }, {
+    "mailid": "arun.kumaarv@gmail.com",
+    "Name": "Arun Kumaar V ( Assistant Professor)",
+    "ID": "A1172",
+    "ClgMail": "k.arun@jainuniversity.ac.in",
+    "Branch": "All branches",
+    "Courses": "Aptitude and Logical Reasoning",
+    "Educational_Degrees": "M.E",
+    "Available_time": "9 am - 6 pm",
+    "Languages_know": "English, Tamil, Malayalam"
+  }, {
+    "mailid": "n.shyla@jainuniversity.ac.in",
+    "Name": "Asst.prof.Shyla N",
+    "ID": "A 1299",
+    "ClgMail": "n.shyla@jainuniversity.ac.in ",
+    "Branch": "IOT",
+    "Courses": "SENSOR TECHNOLOGIES-18CS6AI04\n",
+    "Educational_Degrees": "M.Tech",
+    "Available_time": "9:00 AM -5:00 PM",
+    "Languages_know": "Kannada,Hindi,English "
+  }, {
+    "mailid": "staffimahi@gmail.com",
+    "Name": "Staffi M",
+    "ID": "A1230",
+    "ClgMail": "m.staffi@jainunuversity.ac.in",
+    "Branch": "AI",
+    "Courses": "Database Management System, Python Programming",
+    "Educational_Degrees": "M. Tech",
+    "Available_time": "9 am to 6 pm",
+    "Languages_know": "Tamil, English"
+  }, {
+    "mailid": "r.anurenjini@jainuniversity.ac.in",
+    "Name": "Asst.Prof. Anurenjini R",
+    "ID": "A0128",
+    "ClgMail": "r.anurenjini@jainuniversity.ac.in",
+    "Branch": "MACT",
+    "Courses": "Java, Cloud Technology,Data Center, Web Programming, Frameworks for Mobile Application development",
+    "Educational_Degrees": "M.tech",
+    "Available_time": "8:30 AM to 6:00 PM",
+    "Languages_know": "Malayalam, Hindi and English"
+  }, {
+    "mailid": "biswamohans@gmail.com",
+    "Name": "Dr. Biswa Mohan  Sahoo",
+    "ID": "NA",
+    "ClgMail": "ms.biswa@jainuniversity.edu",
+    "Branch": "CSE",
+    "Courses": "Computer Vision and Pattern Recognition with ML-18CS6AI06",
+    "Educational_Degrees": "PhD",
+    "Available_time": "6pm to 7 pm",
+    "Languages_know": "Hindi, English, Odiya"
+  }, {
+    "mailid": "s.meenakshi@jainuniversity.ac.in",
+    "Name": "Assistant professor",
+    "ID": "A1242",
+    "ClgMail": "s meenakshi@jainuniversity.ac.in",
+    "Branch": "Data science",
+    "Courses": "18DS5DE11",
+    "Educational_Degrees": "M.tech",
+    "Available_time": 10,
+    "Languages_know": "Kannada, English, Hindi"
+  }
+]

@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import DBPedia from './posts/restart.js'
 import Sname from './posts/StudentName';
 import Sid from './posts/Studentid';
+import Pname from './posts/professor';
 import Bot from './data/bot_img.jpg';
 import User from './data/me.jpeg';
 
@@ -59,9 +60,8 @@ const steps=[
           { value: 1, label: 'Student Information', trigger: 'student' },
           { value: 2, label: 'professor Information', trigger: 'professor' },
           { value: 3, label: 'Subject Information', trigger: 'Subject' },
-          { value: 4, label: 'Class Notes', trigger: 'notes'},
-          { value: 5, label: 'Checking availability of notes', trigger: 'test' },
-          { value: 6, label: 'Conversation', trigger: 'convert'},
+          { value: 4, label: 'Study Materials', trigger: 'notes'},
+          { value: 5, label: 'Conversation', trigger: 'convert'},
         ],
       },
       {
@@ -85,8 +85,9 @@ const steps=[
       },
       {
         id: 'professor',
-        message: 'Enter name of the professor',
-        trigger: 'test',
+        component: <Pname />,
+        asMessage: true,
+        trigger: 'continue',
       },
       {
         id: 'Subject',
@@ -95,26 +96,26 @@ const steps=[
       },
       {
         id: 'notes',
-        component: <a href="/" target="_blank" rel="noreferrer" class="w3-button w3-blue w3-hover-blue">Go to the page<br/>(Click here)</a>,
+        component: <a href="http://localhost/bot/notes/homepage.php" target="_blank" rel="noreferrer" class="w3-button w3-blue w3-hover-blue">Go to the page<br/>(Click here)</a>,
         asMessage: true,
         trigger: 'continue',
       },
       {
         id: 'convert',
         options: [
-          { value:1, label:'Speech to Text', trigger:'stt' },
+          { value:1, label:'Take Note',alt:'Using Speech to text Conversation' , trigger:'stt' },
           { value:2, label:'Text to Speech', trigger:'tts' }
         ],
       },
       {
         id: 'stt',
-        component: <a href="/" target="_blank" rel="noreferrer" class="w3-button w3-blue w3-hover-blue">Go to the page<br/>(Click here)</a>,
+        component: <a href="http://localhost/bot/converter.php" target="_blank" rel="noreferrer" class="w3-button w3-blue w3-hover-blue">Go to the page<br/>(Click here)</a>,
         asMessage: true,
         trigger: 'continue',
       },
       {
         id: 'tts',
-        component: <a href="/" target="_blank" rel="noreferrer" class="w3-button w3-blue w3-hover-blue">Go to the page<br/>(Click here)</a>,
+        component: <a href="http://localhost/bot/texttospeech.html" target="_blank" rel="noreferrer" class="w3-button w3-blue w3-hover-blue">Go to the page<br/>(Click here)</a>,
         asMessage: true,
         trigger: 'continue',
       },
@@ -156,9 +157,9 @@ const steps=[
 class chatbot extends Component {
   logout = ()=>{
     //console.log("cookie",document.cookie);
-    //document.cookie = "PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    //window.location.reload();
-    //document.cookie.remove('PHPSESSID');
+    document.cookie = "PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    window.location.reload();
+    document.cookie.remove('PHPSESSID');
   }
   handleClear = () => {
   this.setState({ clear: true }, () => {
@@ -168,12 +169,13 @@ class chatbot extends Component {
   render () {
     return (
       <div>
+        {document.cookie.indexOf('PHPSESSID') === 0?
         <>
 
             <div class="w3-top">
               <div class="w3-bar w3-blue w3-card" id="myNavbar">
-                <a href="/" class="w3-bar-item w3-button w3-wide">RANS</a>
-                <a href="/" class="w3-bar-item w3-button w3-left">BOT</a>
+                <a href="http://localhost/bot/main.php" class="w3-bar-item w3-button w3-wide">RANS</a>
+                <a href="http://localhost/bot/chatbot/build/index.html" class="w3-bar-item w3-button w3-left">BOT</a>
                 <button onClick={this.logout} class="w3-bar-item w3-right w3-black w3-button">Logout</button>
               </div>
             </div>
@@ -191,6 +193,7 @@ class chatbot extends Component {
             </ThemeProvider>
 
       </>
+      : window.location.replace('http://localhost/') }
       </div>
     )
   }

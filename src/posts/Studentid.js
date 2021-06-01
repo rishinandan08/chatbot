@@ -21,11 +21,16 @@ function Sid() {
           <p>USN: {val.USN} </p>
           <p>Name: {val.Name} </p>
           <p>DOB: {val.DOB} </p>
-          <p>Mail id: {val.Mail} </p>
+          <p>Mail id: {val.ClgMail} </p>
           <p>Department: {val.Department} </p>
+          <p>{val.Student_type} Student</p>
           <p>Batch: {val.Batch} </p>
+          <p>Hoste/Day Scholar: {val.Hostel_DayScholar}</p>
+          <p>One word about myself: {val.Myself}</p>
           <p>Clubname: {val.Clubname} </p>
-          <p>Sports: {val.Sports} </p>
+          <p>Interests: {val.Area_of_interests} </p>
+          <p>Achievements: {val.Achievements}</p>
+          <p>Internships/Work Experience: {val.Internships_WorkExperience} </p>
           </div>
         );
         })}
