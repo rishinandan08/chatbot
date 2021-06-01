@@ -180,7 +180,7 @@ class chatbot extends Component {
               <div class="w3-bar w3-blue w3-card" id="myNavbar">
                 <a href="https://humanizerbot.herokuapp.com/" class="w3-bar-item w3-button w3-wide">RANS</a>
                 <a href="/" class="w3-bar-item w3-button w3-left">BOT</a>
-                <button onClick={this.logout} class="w3-bar-item w3-right w3-black w3-button">Logout</button>
+                <button onClick={this.logout} class="w3-bar-item w3-right w3-black w3-button"><i class="fa fa-lock"></i>Logout</button>
               </div>
             </div>
 
